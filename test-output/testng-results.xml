@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4427" started-at="2021-11-10T08:34:22Z" finished-at="2021-11-10T08:34:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4427" started-at="2021-11-10T08:34:22Z" finished-at="2021-11-10T08:34:26Z">
+      <class name="org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="beforeSuite" is-config="true" duration-ms="2269" started-at="2021-11-10T08:34:20Z" description="test ortamı hazırlandı." finished-at="2021-11-10T08:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="beforeTest" is-config="true" duration-ms="398" started-at="2021-11-10T08:34:22Z" description="siteye giriş yapılabildi mi?" finished-at="2021-11-10T08:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ViewVeterinariansFurther()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="ViewVeterinariansFurther" duration-ms="3341" started-at="2021-11-10T08:34:22Z" description="ViewVeterinariansFurther" finished-at="2021-11-10T08:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVeterinariansFurther -->
+        <test-method status="PASS" signature="ViewVeteriansBack()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="ViewVeteriansBack" duration-ms="436" started-at="2021-11-10T08:34:26Z" description="ViewVeteriansBack" depends-on-methods="org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest.ViewVeterinariansFurther" finished-at="2021-11-10T08:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVeteriansBack -->
+        <test-method status="PASS" signature="ViewVeteriansExample()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="ViewVeteriansExample" duration-ms="193" started-at="2021-11-10T08:34:26Z" description="ViewVeteriansExample" depends-on-methods="org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest.ViewVeteriansBack" finished-at="2021-11-10T08:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVeteriansExample -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest@482cd91f]" name="afterSuit" is-config="true" duration-ms="2157" started-at="2021-11-10T08:34:26Z" finished-at="2021-11-10T08:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- org.springframework.samples.petclinic.ViewVeterinariansSeleniumWebDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
