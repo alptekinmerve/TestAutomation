@@ -23,7 +23,7 @@ public class ViewVeterinariansSeleniumWebDriverTest {
 	public void beforeSuite() {
 		WebDriverManager.chromedriver().setup();
 
-		ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();  
 
 		options.addArguments("--allow-insecure-localhost");
 		options.addArguments("acceptInsecureCert");

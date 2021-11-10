@@ -41,7 +41,7 @@ public class FindOwnersSeleniumWebDriverTest {
 		Boolean pageControl = driver.findElement(By.cssSelector("img[class='img-responsive']")).isDisplayed();
 
 		assertTrue(pageControl);
-		System.out.println("test00");
+		System.out.println("test00");  
 	}
 
 	@Test(description = "owner eklenebiliyor mu?", enabled = true)
