@@ -72,7 +72,7 @@ public class ViewVeterinariansSeleniumWebDriverTest {
 		driver.findElement(By.cssSelector("[title='veterinarians']")).click();
 		Boolean ViewVeterinarians = driver.findElement(By.xpath("//*[@id=\"vets\"]/tbody/tr[4]/td[1]")).isDisplayed();
 		assertTrue(ViewVeterinarians);
-		System.out.println("Rafael Ortega is veterian");
+		System.out.println("test40");
 	}
 
 
@@ -80,7 +80,7 @@ public class ViewVeterinariansSeleniumWebDriverTest {
 
 	@AfterSuite
 	public void afterSuit() throws InterruptedException {
-		TimeUnit.SECONDS.sleep(2);
+		TimeUnit.SECONDS.sleep(3);
 		driver.close();
 	}
 

@@ -95,12 +95,6 @@ public class FindOwnersSeleniumWebDriverTest {
 		System.out.println("Test12");
 	}	
 
-	
-	@AfterSuite
-	public void afterSuit() throws InterruptedException {
-		TimeUnit.SECONDS.sleep(3);
-		driver.close();
-	
-	}
+
 
 }
